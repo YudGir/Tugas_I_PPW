@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Universitas Impian</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-kustom">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="Logo.png" alt="Logo" width="45" height="45" class="me-2">
+            <div class="d-flex flex-column lh-sm">
+                <span class="fs-5 fw-bold text-white-51">E-Learning</span>
+                <span class="fs-5 text-white-51">Universitas Impian</span>
+            </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="dashboard.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="student_list.html">Student List</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h4>Daftar Mahasiswa</h4>
+        <table class="table table-dark table-striped-columns align-middle">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">NIM</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">Jenis Kelamin</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>100 '25</td>
+                    <td>Desno Kujian</td>
+                    <td>Laki-Laki</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Update</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>103 '26</td>
+                    <td>Fatih Lockmun</td>
+                    <td>Laki-Laki</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Update</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>038 '25</td>
+                    <td>Himawari Poseidon</td>
+                    <td>Perempuan</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Update</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                    </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>209 '26</td>
+                    <td>Putri Malmala</td>
+                    <td>Perempuan</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Update</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
